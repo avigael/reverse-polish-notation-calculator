@@ -2,7 +2,7 @@
 
 This project is written in Rust. To run this project please [install](https://www.rust-lang.org/tools/install "install") Rust on your machine.
 
-This is a small [Reverse Polish Notation](http://https://en.wikipedia.org/wiki/Reverse_Polish_notation "Reverse Polish Notation") calculator written in Rust.
+This is a small [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation "Reverse Polish Notation") calculator written in Rust.
 
 The rough idea is that a RPN calculator is a *stack language*: we push things onto a stack as we parse them, and when we parse operations we pop off the required number of arguments, apply the operation, and push the result back on to the stack.
 
